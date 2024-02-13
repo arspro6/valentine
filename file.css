@@ -1,0 +1,71 @@
+body {
+    background-color: plum;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* высота всего экрана */
+}
+
+.color {
+    background-color: plum;
+    /* Цвет фона страницы */
+}
+
+.container {
+    text-align: center;
+    position: relative; /* Чтобы кнопки были позиционированы относительно этого контейнера */
+}
+
+.gif {
+    text-align: center;
+    margin-top: 20px;
+    /* Центрирование и отступы для изображения */
+}
+
+.gif img {
+    max-width: 100%;
+    height: auto;
+    /* Адаптация размеров изображения */
+}
+
+.text {
+    text-align: center;
+    font-size: 24px;
+    color: red;
+    margin-top: 20px;
+    /* Стили для текста */
+}
+
+.button-container {
+    margin-top: 20px; /* Отступ между текстом и кнопками */
+}
+
+.button, .button2 {
+    margin: 0 10px; /* Расстояние между кнопками */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    /* Общие стили для кнопок */
+}
+
+.button {
+    background-color: pink;
+    color: white;
+    transition: transform 0.2s;
+    /* Стили для первой кнопки */
+}
+
+
+.button2 {
+    background-color: red;
+    color: white;
+    transition: transform 0.2s;
+    
+    /* Стили для второй кнопки */
+}
+
+
+
